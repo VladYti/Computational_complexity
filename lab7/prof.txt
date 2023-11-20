@@ -1,0 +1,26 @@
+Profile for Simulated annealing
+
+Sat Mar  4 13:24:40 2023    output.prof
+
+         136350 function calls in 0.693 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.053    0.053    0.693    0.693 /Users/vladyti/Desktop/py_proj/pythonProject/lab7/task_7.py:109(simulated_ann)
+    53487    0.531    0.000    0.531    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab7/task_7.py:50(check)
+    54357    0.105    0.000    0.105    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab7/task_7.py:90(nn)
+     3565    0.001    0.000    0.002    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab7/task_7.py:101(check_random)
+    15159    0.001    0.000    0.001    0.000 {built-in method builtins.len}
+      871    0.001    0.000    0.001    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:66(copy)
+     3565    0.000    0.000    0.000    0.000 {built-in method math.exp}
+      871    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
+     3565    0.000    0.000    0.000    0.000 {method 'random' of '_random.Random' objects}
+       36    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+      871    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/cProfile.py:117(__exit__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+***************************************************************************
+
