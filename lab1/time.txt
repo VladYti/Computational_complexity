@@ -1,0 +1,20 @@
+Thu Mar  2 14:20:15 2023    output.prof
+
+         18253 function calls (16207 primitive calls) in 0.005 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+   2047/1    0.001    0.000    0.005    0.005 /Users/vladyti/Desktop/py_proj/pythonProject/lab1/task_1.py:26(binary_process)
+     1024    0.001    0.000    0.004    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab1/task_1.py:12(process)
+     1166    0.002    0.000    0.003    0.000 {built-in method builtins.sum}
+    11264    0.002    0.000    0.002    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab1/task_1.py:16(<genexpr>)
+     1562    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab1/task_1.py:19(<genexpr>)
+     1167    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        7    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:66(copy)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/cProfile.py:117(__exit__)
+        7    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        7    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
