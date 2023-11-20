@@ -1,0 +1,41 @@
+Tue Mar  7 20:20:32 2023    output.prof
+
+         1166 function calls (1061 primitive calls) in 0.001 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab5/task_5.py:116(reduction)
+     92/1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:128(deepcopy)
+        1    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab5/task_5.py:51(__deepcopy__)
+     16/2    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:258(_reconstruct)
+       32    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:263(<genexpr>)
+       15    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:200(_deepcopy_list)
+        8    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab5/task_5.py:36(delete_vertex)
+        1    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab5/task_5.py:100(process)
+        9    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab5/task_5.py:32(add_degrees)
+       16    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab5/task_5.py:67(combinations)
+       32    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:242(_keep_alive)
+      206    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      157    0.000    0.000    0.000    0.000 {built-in method builtins.id}
+       15    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab5/task_5.py:86(check)
+      169    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+       16    0.000    0.000    0.000    0.000 {method '__reduce_ex__' of 'object' objects}
+        1    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab5/task_5.py:22(get_edge_list)
+       76    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
+       93    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       60    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:182(_deepcopy_atomic)
+       33    0.000    0.000    0.000    0.000 {built-in method builtins.getattr}
+       42    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab5/task_5.py:83(<genexpr>)
+       25    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+       16    0.000    0.000    0.000    0.000 {built-in method builtins.isinstance}
+       17    0.000    0.000    0.000    0.000 {built-in method builtins.issubclass}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/cProfile.py:117(__exit__)
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.setattr}
+        7    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+        3    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab5/task_5.py:73(<genexpr>)
+        1    0.000    0.000    0.000    0.000 {built-in method __new__ of type object at 0x106b5ad50}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'items' of 'dict' objects}
+
+
