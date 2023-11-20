@@ -1,0 +1,18 @@
+Thu Mar  2 14:31:22 2023    output.prof
+
+         9570 function calls in 0.006 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.006    0.006 /Users/vladyti/Desktop/py_proj/pythonProject/lab2/task_2.py:71(process)
+     1049    0.003    0.000    0.004    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab2/task_2.py:52(combinations)
+     1046    0.002    0.000    0.002    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab2/task_2.py:26(check)
+     7431    0.001    0.000    0.001    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab2/task_2.py:68(<genexpr>)
+       12    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/cProfile.py:117(__exit__)
+       25    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab2/task_2.py:58(<genexpr>)
+        4    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
