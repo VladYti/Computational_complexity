@@ -1,0 +1,136 @@
+Profile for process_permutation
+
+Thu Mar  2 18:12:32 2023    output.prof
+
+         2042 function calls (1357 primitive calls) in 0.001 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.001    0.001 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:125(process_p)
+  806/121    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:57(process_permutations)
+      120    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:46(pairwise)
+      120    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:66(copy)
+      392    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+      120    0.000    0.000    0.000    0.000 {built-in method itertools.tee}
+      120    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      120    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
+      120    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      120    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/cProfile.py:117(__exit__)
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+***************************************************************************
+
+Profile for process_string
+
+Thu Mar  2 18:12:32 2023    output.prof
+
+         6295 function calls (4195 primitive calls) in 0.002 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.001    0.001    0.002    0.002 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:90(process_s)
+ 2425/325    0.001    0.000    0.001    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:71(process_string)
+      324    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:46(pairwise)
+      324    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:66(copy)
+     1035    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+      324    0.000    0.000    0.000    0.000 {built-in method itertools.tee}
+      562    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
+      324    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+      324    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
+      324    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+      324    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/cProfile.py:117(__exit__)
+        2    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+***************************************************************************
+
+Profile for process_b_and_b
+
+Thu Mar  2 18:12:32 2023    output.prof
+
+         170 function calls (162 primitive calls) in 0.000 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:206(process_b)
+     10/2    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:191(branch)
+       16    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:159(bound)
+        9    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:46(pairwise)
+        8    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:169(<listcomp>)
+       35    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:182(new_bound)
+        8    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        9    0.000    0.000    0.000    0.000 {built-in method itertools.tee}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:66(copy)
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+       17    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+       16    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       16    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/cProfile.py:117(__exit__)
+        9    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        1    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:185(<listcomp>)
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
+
+
+***************************************************************************
+
+Profile for process_BD_with_queue
+
+Thu Mar  2 18:12:32 2023    output.prof
+
+         1461 function calls in 0.001 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.001    0.001 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:240(process_bd)
+       21    0.000    0.000    0.001    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:228(put_in_queue)
+       84    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:215(bd)
+       26    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/queue.py:122(put)
+       26    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/queue.py:154(get)
+       52    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py:351(notify)
+       26    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/queue.py:235(_put)
+       47    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/copy.py:66(copy)
+       26    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:46(pairwise)
+       52    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py:271(_is_owned)
+       52    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py:256(__enter__)
+       21    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/queue.py:97(empty)
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/queue.py:34(__init__)
+       52    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py:259(__exit__)
+       26    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/queue.py:238(_get)
+      189    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+       47    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/queue.py:232(_qsize)
+        3    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/threading.py:228(__init__)
+       26    0.000    0.000    0.000    0.000 /Users/vladyti/Desktop/py_proj/pythonProject/lab3/task_3.py:221(<listcomp>)
+       52    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+       52    0.000    0.000    0.000    0.000 {method '__enter__' of '_thread.lock' objects}
+       26    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       73    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+       26    0.000    0.000    0.000    0.000 {built-in method _heapq.heappop}
+       84    0.000    0.000    0.000    0.000 {method 'append' of 'list' objects}
+       84    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
+       26    0.000    0.000    0.000    0.000 {built-in method itertools.tee}
+       84    0.000    0.000    0.000    0.000 {method 'pop' of 'list' objects}
+       26    0.000    0.000    0.000    0.000 {built-in method _heapq.heappush}
+       47    0.000    0.000    0.000    0.000 {method 'copy' of 'list' objects}
+       47    0.000    0.000    0.000    0.000 {method 'get' of 'dict' objects}
+       26    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+       26    0.000    0.000    0.000    0.000 {built-in method builtins.next}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/cProfile.py:117(__exit__)
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 /usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/queue.py:229(_init)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+
+
+***************************************************************************
+

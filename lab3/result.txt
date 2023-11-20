@@ -1,0 +1,20 @@
+solution by process_permutation
+2 3 4 5 1
+25
+**********
+
+solution by process_string
+5 1 2 3 4
+25
+**********
+
+solution by branch and bound
+1 2 3 4 5
+25
+**********
+
+solution by branch and bound with queue
+1 2 3 4 5
+25
+**********
+
